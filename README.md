@@ -5,6 +5,12 @@ Tech challenge done on 2024-05-17
 Node: v22
 IDE: VSCode
 
+# How to run
+- Make sure you have NodeJS installed
+- In the root folder run `npm install`
+- Once installation is done run `npm run dev`
+- Follow instructions in terminal on where to access the app, by default it's `http://localhost:5173/`
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
