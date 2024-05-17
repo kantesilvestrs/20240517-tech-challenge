@@ -27,9 +27,7 @@ const Feed = () => {
   }, [])
 
   return (
-    <>
-      <div className="flex min-h-screen w-full flex-col bg-muted/40">
-        <h1>Feed</h1>
+      <div className="flex min-h-screen w-full flex-col">
         <div className="flex flex-col items-center gap-y-5">
           {flickerFeed.map(item => (
             <Card className="w-6/12">
@@ -55,8 +53,6 @@ const Feed = () => {
           ))}
         </div>
       </div>
-
-    </>
   )
 }
 
